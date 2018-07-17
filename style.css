@@ -1,0 +1,190 @@
+body {
+  margin: 0;
+  font-family: "Jura";
+}
+
+/* CSS for nav bar and buttons*/
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 5vh;
+  background: #1f2226;
+  color: white;
+  z-index: 1;
+  justify-content: space-around;
+}
+
+.nav-button {
+  display: block;
+  height: 5vh;
+  width: 10%;
+  text-align: center;
+  line-height: 5vh;
+}
+
+#nav-button {
+  text-decoration: none;
+  color: white;
+}
+
+/*CSS for body area*/
+
+.welcome-area {
+  width: 100%;
+  height: 100vh;
+  background: #2361c4;
+}
+
+#welcome-text {
+  color: white;
+  position: relative;
+  top: 35vh;
+  left: 33vw;
+  font-size: 3vw;
+}
+
+.title-area {
+  text-align: center;
+  width: 100%;
+  height: 10vh;
+  margin-bottom: 10vh;
+}
+
+.title-text {
+  position: relative;
+  line-height: 100%;
+  font-size: 3vw;
+  margin-top: 5vh;
+}
+
+.work-experience-area {
+  display: flex;
+  width: 100%;
+  height: auto;
+  margin-bottom: 20vh;
+}
+
+#experience-image {
+  display: block;
+  position: relative;
+  top: 10vh;
+  margin-left: 30vw;
+}
+
+.project-display-grid {
+  display: grid;
+  grid-template-rows: 10vh 25vh 10vh 25vh 15vh;
+  grid-template-columns: 22vw 25vw 6vw 25vw 22vw;
+}
+
+.project-one {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+
+.project-two {
+  grid-column-start: 4;
+  grid-column-end: 5;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+
+.project-three {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 4;
+  grid-row-end: 5;
+}
+
+.project-four {
+  grid-column-start: 4;
+  grid-column-end: 5;
+  grid-row-start: 4;
+  grid-row-end: 5;
+}
+
+.project-spec {
+  width: auto;
+  height: 100%;
+  box-shadow: 7px 7px 20px black;
+}
+
+.about-me-container {
+  display: grid;
+  grid-template-rows: 1fr 3.5fr;
+  grid-template-columns: 2fr 1fr;
+  background-color: rgba(0, 0, 0, 0.7);
+  width: 75%;
+  margin: auto;
+  color: white;
+  box-shadow: 7px 7px 20px black;
+}
+
+.intro-text {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+
+.intro-photo {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+
+.about-me-text {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+
+#my-photo {
+  position: relative;
+  top: 5vh;
+  width: 80%;
+  height: auto;
+  border-radius: 10%;
+  margin-bottom: 8vh;
+  filter: blur(10px);
+}
+
+.about-me-text-style {
+  font-size: 1.3vw;
+  margin: 5vh;
+  line-height: 150%;
+}
+
+#about-me-main-headers {
+  font-size: 1.8vw;
+  text-decoration: underline;
+}
+
+#about-me-sub-headers {
+  font-size: 1.5vw;
+  text-decoration: underline;
+}
+
+.contact-area {
+  display: flex;
+  background: black;
+  width: 75%;
+  height: 20vh;
+  justify-content: space-around;
+  margin: auto;
+}
+
+.icon-spec {
+  position: relative;
+  top: 2vh;
+  height: 70%;
+}
