@@ -191,7 +191,7 @@ body {
 }
 
 
-@media (max-width: 500px) {
+@media (max-width: 900px) {
 
   #experience-image {
     display: block;
