@@ -345,4 +345,19 @@ body {
     margin-bottom: 5vh;
   }
 
+  .navbar {
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 5vh;
+    background: #1f2226;
+    color: white;
+    z-index: 1;
+    justify-content: space-around;
+    font-size: 1vw;
+  }
+
 }
