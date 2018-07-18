@@ -191,6 +191,158 @@ body {
 }
 
 
-@media (max-width: 500%) {
+@media (max-width: 500px) {
+
+  #experience-image {
+    display: block;
+    position: relative;
+    top: 10vh;
+    left: -25vw;
+    width: auto;
+    height: 40vh;  
+  }
+
+  .project-display-grid {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .project-one {
+    width: 100%;
+    height: auto;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+  }
+  
+  .project-two {
+    width: 100%;
+    height: auto;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+  }
+  
+  .project-three {
+    width: 100%;
+    height: auto;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+  }
+  
+  .project-four {
+    width: 100%;
+    height: auto;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+  }
+  
+  .project-spec {
+    width: 100%;
+    height: auto;
+    box-shadow: 7px 7px 20px black;
+  }
+
+  .contact-area {
+    display: flex;
+    flex-direction: row;
+    background: black;
+    width: 100%;
+    height: 10vh;
+    justify-content: space-around;
+    margin: auto;
+  }
+  
+  .icon-spec {
+    position: relative;
+    left: ;
+    top: 2vh;
+    height: 10vw;
+  }
+  
+  .title-area {
+    text-align: center;
+    width: 100%;
+    height: 10vh;
+    margin-bottom: 10vh;
+  }
+  
+  .title-text {
+    position: relative;
+    line-height: 100%;
+    font-size: 15vw;
+    margin-top: 5vh;
+  }
+
+  .about-me-container {
+    display: grid;
+    grid-template-rows: 1fr 1fr 3.5fr;
+    grid-template-columns: 1fr;
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    margin: auto;
+    color: white;
+    box-shadow: 7px 7px 20px black;
+  }
+  
+  .intro-text {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+  }
+  
+  .intro-photo {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+  }
+  
+  .about-me-text {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 4;
+  }
+  
+  #my-photo {
+    position: relative;
+    top: 10vh;
+    width: 100%;
+    height: auto;
+    border-radius: 10%;
+    margin-bottom: 8vh;
+    filter: blur(10px);
+  }
+  
+  .about-me-text-style {
+    font-size: 3.5vw;
+    margin: 5vh;
+    line-height: 150%;
+  }
+  
+  #about-me-main-headers {
+    font-size: 4vw;
+    text-decoration: underline;
+  }
+  
+  #about-me-sub-headers {
+    font-size: 3vw;
+    text-decoration: underline;
+  }
+  
+  #welcome-text {
+    color: white;
+    position: relative;
+    top: 35vh;
+    margin-left: 15%;
+    font-size: 5vh;
+  }
+
+  .title-area {
+    text-align: center;
+    width: 100%;
+    height: 10vh;
+    margin-bottom: 5vh;
+  }
 
 }
