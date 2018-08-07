@@ -156,7 +156,6 @@ body {
   height: auto;
   border-radius: 10%;
   margin-bottom: 8vh;
-  filter: blur(10px);
 }
 
 .about-me-text-style {
