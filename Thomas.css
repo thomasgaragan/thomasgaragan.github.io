@@ -1,0 +1,41 @@
+.introTile {
+	height: 100%;
+	padding: 5%;
+	margin: 0;
+	color: #D7DBDD;
+	background-color: #0c1821;
+}
+
+#introPadding {
+	padding-top: 20%;
+
+}
+
+.linkContainer {
+	padding: 3%;
+	border: 5px solid #D7DBDD;
+	width: 100%;
+	height: auto;
+	color: #D7DBDD;
+}
+
+#jumboStyle {
+	background-color: #0c1821;
+	color: #D7DBDD;
+}
+
+.cardStyle{
+	background-color: #0c1821;
+	color: #D7DBDD;
+}
+
+.cardStyle a {
+	color: #D7DBDD;
+}
+
+#comingSoon {
+	background-color: #0c1821;
+	color: #D7DBDD;
+	height: 100vh;
+	width: auto;
+}
